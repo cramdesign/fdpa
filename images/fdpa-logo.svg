@@ -1,0 +1,20 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="260px" height="75px" viewBox="0 0 260 75" enable-background="new 0 0 260 75" xml:space="preserve">
+
+	<symbol  id="New_Symbol" viewBox="-1 -67.535 167.089 67.535">
+		<text transform="matrix(1 0 0 -1 -0.9995 -29.1387)"><tspan x="0" y="0" font-family="'OpenSans-Bold'" font-size="20">Fine, Digital, and </tspan><tspan x="0" y="20" font-family="'OpenSans-Bold'" font-size="20">Performing Arts</tspan></text>
+		<text transform="matrix(1 0 0 -1 0 -8.5693)" fill="#808184" font-family="'OpenSans'" font-size="10" letter-spacing="1">DEPARTMENT OF</text>
+		<text transform="matrix(1 0 0 -1 0 -64.2832)" fill="#808184" font-family="'OpenSans'" font-size="12">at Shawnee State University</text>
+	</symbol>
+	
+	<g>
+		<path fill="#2168A8" d="M40,20v15h15V10h-5v10H40z M50,30h-5v-5h5V30z"/>
+		<polygon fill="#2168A8" points="15,65 15,25 35,25 35,20 15,20 15,15 45,15 45,10 10,10 10,65 	"/>
+		<path fill="#2168A8" d="M40,40v5h10v5H30v15h25V40H40z M50,60H35v-5h15V60z"/>
+		<path fill="#2168A8" d="M35,45V30H20v35h5V45H35z M25,35h5v5h-5V35z"/>
+		<path fill="#2168A8" d="M0,0v75h65V0H0z M60,70H5V5h55V70z"/>
+	</g>
+	
+	<use xlink:href="#New_Symbol"  width="167.089" height="67.535" id="XMLID_13_" x="-1" y="-67.535" transform="matrix(1 0 0 -1 77 5)" overflow="visible"/>
+
+</svg>

@@ -1,0 +1,238 @@
+/*
+
+	Theme name: FDPA
+	Template: supersimple
+	
+	Author: Matt Cram
+	Version: 1.0.0
+	GitHub Theme URI: https://github.com/cramdesign/supersimple-jobs
+	
+	Description: A child theme of supersimple for the Department of Fine, Digital, and Performing Arts. Provides support for WP Job Manager.
+
+*/
+
+
+/* fonts 
+-------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+h1, h2 {
+	letter-spacing: -1px;
+}
+
+
+/* customizations 
+-------------------------------------------------------------- */
+
+body {
+	background: #fafafa;
+}
+
+a {
+	color: #2267a7;
+}
+
+#header {
+	padding: 3em 0;
+	border-bottom: 1px solid #f3f3f3;
+	background: #fff;
+}
+
+#logo a {
+	display: block;
+	height: 75px;
+	background: url(images/fdpa-logo-outlines.svg) no-repeat center;
+	text-indent: -999em;
+}
+
+#menu .toggle {
+	margin-top: 2em;
+}
+
+@media (min-width:800px) {
+	
+	#logo a {
+		background-position-x: left;
+	}
+
+	#menu > ul > li > a {
+		color: #2267a7;
+	}
+	
+	#menu > ul > li:hover > a {
+		background: #2267a7;
+		color: #fff;
+	}
+
+}
+
+#content {
+	padding: 5em 0;
+}
+
+#content article.post {
+	padding: 0;
+	box-shadow: none;
+	background: transparent;
+}
+
+
+
+
+/* #top
+------------------------------------------ */
+
+#top {
+	font-size: 10px;
+	text-transform: uppercase;
+	background: #222;
+}
+
+#top nav {
+	font-weight: bold;
+}
+
+#top a {
+	color: #7EA5CB;
+	padding: 1em;
+	display: inline-block;
+}
+
+#top a:hover {
+	color: #fff;
+}
+
+#top a:first-child {
+	color: #fff;
+	background: url(images/ssu-mark.svg) no-repeat left center;
+	padding: 1.5em;
+	padding-left: 3.25em;
+}
+
+@media ( max-width:800px ) {
+	
+	#top {
+		text-align: center;
+	}
+	
+}
+
+
+
+/* job post customizations 
+-------------------------------------------------------------- */
+
+/* Job listings */
+
+#content .job_listings .job_listing {
+	background: #fff;
+}
+
+#content .job_listings > a {
+	padding: 1.25em;
+}
+
+#content .job_listing > a > * {
+}
+
+#content .job_listings .company_logo {
+	width: 15%;
+	margin: 0;
+}
+
+#content .job_listings .position {
+	width: 45%;
+}
+
+#content .job_listings .location {
+	width: 20%;
+}
+
+#content .job_listings .meta {
+	width: 20%;
+}
+
+/* Job single page */
+
+#content .single_job_listing .company {
+	overflow: hidden;
+	box-shadow: 0px 0px 0.5em rgba(0,0,0,0.2);
+	border-color: transparent;
+	background: #fff;
+	padding: 2em;
+	line-height: 1.1;
+}
+
+@media (min-width: 800px ) {
+	
+	#content .single_job_listing .company {
+		float: right;
+		margin-left: 3em;
+		width: 30%;
+	}
+	
+}
+
+#content .single_job_listing .company_logo img,
+#content .company_logo {
+	width: auto;
+	height: auto;
+	max-height: 200px;
+	position: static;
+	max-width: 15em;
+	margin: 0;
+}
+
+#content .single_job_listing .company img {
+	float: none;
+	max-width: 100%;
+}
+
+
+#content .single_job_listing .meta {
+	margin: 3em 0;
+	width: auto;
+}
+
+.single-job_listing #content header .meta {
+	display: none;
+}
+
+#content .single_job_listing .company .name {
+	margin: 3em 0 0;
+	padding: 0;
+	line-height: 1.1;
+}
+
+#content .single_job_listing .company .name > * {
+	float: none;
+	margin: 1em 0;
+	display: block;
+}
+
+#content .single_job_listing .job_description {
+	margin-bottom: 3em;
+	overflow: hidden;
+}
+
+.application_details {
+	background: #fff;
+}
+
+
+
+
+#wpadminbar {
+	background: black;
+}
